@@ -1,68 +1,73 @@
 /* COLORES */
 
 .blanco{
-
+    background-color: #FFFFFF;
 }
 .negro{
-
+    background-color: #000000;
 }
 .gris-claro{
-
+    background-color: ;
 }
 
 .gris-oscuro{
-
+    background-color: #343a40;
 }
 
 .negro-suave{
-
+    background-color: ;
 }
 
 .azul-claro{
-
+    background-color: #0dcaf0;
 }
 
 .azul{
-
+    background-color: #0d6efd;
 }
 
 .azul-oscuro{
+    background-color: #083270;
+}
 
+.indigo{
+    background-color: #6610f2;
 }
 
 .verde-claro{
-
+    background-color: #25dd87;
 }
 
 .verde{
-
+    background-color: #198754;
 }
 
 .verde-oscuro{
-
+    background-color: #0b3f27;
 }
-.rojo-claro{
 
+.rosa{
+    background-color: #ff808d;
 }
 
 .rojo{
-
+    background-color: #dc3545;
 }
 
 .rojo-oscuro{
-
+    background-color: #6b1a22;
 }
 
 .amarillo-claro{
-
+    background-color: #f8d56d;
 }
 
 .amarillo{
-
+    background-color: #ffc107;
 }
 
 .amarillo-oscuro{
-
+    background-color: #684e00;
 }
 
 .boton{
