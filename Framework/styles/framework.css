@@ -1,13 +1,20 @@
+
+.fuente-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* COLORES */
 
 .blanco{
     background-color: #FFFFFF;
 }
+
 .negro{
     background-color: #000000;
 }
+
 .gris-claro{
-    background-color: ;
+    background-color: #757575;
 }
 
 .gris-oscuro{
@@ -15,7 +22,7 @@
 }
 
 .negro-suave{
-    background-color: ;
+    background-color: #121212;
 }
 
 .azul-claro{
