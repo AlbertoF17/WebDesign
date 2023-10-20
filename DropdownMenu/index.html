@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="js/app.js" defer></script>
     <title>Dropdown Menu</title>
 </head>
 <body>
-    
+    <header class="header" id="header">
+        <section class="wrapper container">
+           <a href="./index.html" class="brand">Dropdown Menu</a>
+           <nav class="navbar" id="menu">
+              <ul class="menu">
+                 <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                 <li class="menu-item menu-dropdown">
+                    <span class="menu-link menu-dropdown" data-toggle="submenu">Feature<img class="bx" src="media/arrow-down-icon.png"/></span>
+                    <ul class="submenu">
+                       <li class="submenu-item"><a href="#" class="submenu-link">Feature Link</a></li>
+                       <li class="submenu-item"><a href="#" class="submenu-link">Feature Link</a></li>
+                       <li class="submenu-item"><a href="#" class="submenu-link">Feature Link</a></li>
+                       <li class="submenu-item"><a href="#" class="submenu-link">Feature Link</a></li>
+                    </ul>
+                 </li>
+                 <li class="menu-item menu-dropdown">
+                    <span class="menu-link menu-dropdown" data-toggle="submenu">Discover<img class="bx" src="media/arrow-down-icon.png"/></span>
+                    <ul class="submenu">
+                       <li class="submenu-item"><a href="#" class="submenu-link">Discover Link</a></li>
+                       <li class="submenu-item"><a href="#" class="submenu-link">Discover Link</a></li>
+                       <li class="submenu-item"><a href="#" class="submenu-link">Discover Link</a></li>
+                       <li class="submenu-item"><a href="#" class="submenu-link">Discover Link</a></li>
+                    </ul>
+                 </li>
+                 <li class="menu-item menu-dropdown">
+                    <span class="menu-link menu-dropdown" data-toggle="submenu">Resource<img class="bx" src="media/arrow-down-icon.png"/></span>
+                    <ul class="submenu">
+                       <li class="submenu-item"><a href="#" class="submenu-link">Resource Link</a></li>
+                       <li class="submenu-item"><a href="#" class="submenu-link">Resource Link</a></li>
+                       <li class="submenu-item"><a href="#" class="submenu-link">Resource Link</a></li>
+                       <li class="submenu-item"><a href="#" class="submenu-link">Resource Link</a></li>
+                    </ul>
+                 </li>
+                 <li class="menu-item"><a href="#" class="menu-link">Support</a></li>
+              </ul>
+           </nav>
+        </section>
+     </header>
 </body>
 </html>
