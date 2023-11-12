@@ -144,6 +144,77 @@ body{
     background-color: var(--dark-yellow);
 }
 
+.text-white {
+    color: var(--white);
+}
+
+.text-black {
+    color: var(--black);
+}
+
+.text-light-gray {
+    color: var(--light-gray);
+}
+
+.text-dark-gray {
+    color: var(--dark-gray);
+}
+
+.text-soft-black {
+    color: var(--soft-black);
+}
+
+.text-light-blue {
+    color: var(--light-blue);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-dark-blue {
+    color: var(--dark-blue);
+}
+
+.text-indigo {
+    color: var(--indigo);
+}
+
+.text-light-green {
+    color: var(--light-green);
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.text-dark-green {
+    color: var(--dark-green);
+}
+
+.text-pink {
+    color: var(--pink);
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.text-dark-red {
+    color: var(--dark-red);
+}
+
+.text-light-yellow {
+    color: var(--light-yellow);
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+.text-dark-yellow {
+    color: var(--dark-yellow);
+}
 /* VERTICAL POSITIONING */
 
 .mt-1 {
