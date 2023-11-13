@@ -7,7 +7,7 @@ html {
     padding: 0;
 }
 
-body{
+body {
     margin: 0;
 }
 
@@ -35,6 +35,10 @@ body{
 
 .small-text {
     font-size: 0.8rem;
+}
+
+.bold-text {
+    font-weight: bold;
 }
 
 .link {
@@ -214,6 +218,78 @@ body{
 
 .text-dark-yellow {
     color: var(--dark-yellow);
+}
+
+.border-white {
+    border: 1px solid var(--white);
+}
+
+.border-black {
+    border: 1px solid var(--black);
+}
+
+.border-light-gray {
+    border: 1px solid var(--light-gray);
+}
+
+.border-dark-gray {
+    border: 1px solid var(--dark-gray);
+}
+
+.border-soft-black {
+    border: 1px solid var(--soft-black);
+}
+
+.border-light-blue {
+    border: 1px solid var(--light-blue);
+}
+
+.border-blue {
+    border: 1px solid var(--blue);
+}
+
+.border-dark-blue {
+    border: 1px solid var(--dark-blue);
+}
+
+.border-indigo {
+    border: 1px solid var(--indigo);
+}
+
+.border-light-green {
+    border: 1px solid var(--light-green);
+}
+
+.border-green {
+    border: 1px solid var(--green);
+}
+
+.border-dark-green {
+    border: 1px solid var(--dark-green);
+}
+
+.border-pink {
+    border: 1px solid var(--pink);
+}
+
+.border-red {
+    border: 1px solid var(--red);
+}
+
+.border-dark-red {
+    border: 1px solid var(--dark-red);
+}
+
+.border-light-yellow {
+    border: 1px solid var(--light-yellow);
+}
+
+.border-yellow {
+    border: 1px solid var(--yellow);
+}
+
+.border-dark-yellow {
+    border: 1px solid var(--dark-yellow);
 }
 
 /* GENERAL POSITIONING */
@@ -444,15 +520,15 @@ body{
     width: 25%;
 }
 
-.w-50{
+.w-50 {
     width: 50%;
 }
 
-.w-75{
+.w-75 {
     width: 75%;
 }
 
-.w-100{
+.w-100 {
     width: 100%;
 }
 
@@ -506,7 +582,6 @@ body{
 
 .card {
     border: 1px solid var(--dark-gray);
-    border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     height: 30vh;
@@ -516,8 +591,6 @@ body{
 /* HEADER */
 
 .header {
-    background-color: var(--dark-blue);
-    color: var(--white);
     padding: 1rem;
     text-align: center;
 }
@@ -525,17 +598,11 @@ body{
 /* FOOTER */
 
 .footer {
-    background-color: var(--light-gray);
-    color: var(--dark-gray);
     padding: 1rem;
     text-align: center;
 }
 
 /* MENÚS LATERALES Y HORIZONTALES */
-
-.centered-horizontal-menu {
-    background-color: var(--dark-blue);
-}
 
 .centered-horizontal-menu ul {
     justify-content: center;
@@ -547,10 +614,6 @@ body{
     gap: 1rem;
 }
 
-.right-horizontal-menu {
-    background-color: var(--dark-blue);
-}
-
 .right-horizontal-menu ul {
     justify-content: flex-end;
     display: flex;
@@ -560,10 +623,6 @@ body{
     margin: 0;
     margin-right: 2rem;
     gap: 1rem;
-}
-
-.left-horizontal-menu {
-    background-color: var(--dark-blue);
 }
 
 .left-horizontal-menu ul {
@@ -582,7 +641,6 @@ body{
     top: 0;
     padding-top: 12vw;
     padding-left: 1rem;
-    background-color: var(--dark-blue);
     width: 15vw;
     height: 100vh;
     z-index: +1;
@@ -592,7 +650,7 @@ body:has(.left-vertical-menu) main {
     margin-left: 15vw;
 }
 
-.left-vertical-menu ul{
+.left-vertical-menu ul {
     list-style: none;
     padding: 0.5rem;
     margin: 0;
@@ -604,7 +662,6 @@ body:has(.left-vertical-menu) main {
 
 .menu-item a {
     text-decoration: none;
-    color: var(--white);
 }
 
 .menu-item a:hover {
@@ -619,7 +676,6 @@ body:has(.left-vertical-menu) main {
     right: 0;
     padding-top: 12vw;
     padding-right: 1rem;
-    background-color: var(--dark-blue);
     width: 15vw;
     height: 100vh;
     z-index: +1;
@@ -643,45 +699,36 @@ body:has(.right-vertical-menu) main {
 /* ARTÍCULOS */
 
 .article {
-    border: 2px solid var(--black);
-    border-radius: 1rem;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     padding: 1.5rem;
 }
 
 .article-meta {
     font-size: 0.9rem;
-    color: var(--light-gray);
 }
 
 .secondary-article {
-    border: 2px solid var(--black);
-    border-radius: 1rem;
     max-width: 35vw;
     margin-bottom: 2rem;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .article-title {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--dark-gray);
 }
 
 .article-content {
-    color: var(--black);
     text-wrap: balance;
 }
 
-.article-btn{
+.article-btn {
     padding: 0.5rem;
     cursor: pointer;
-    color: var(--white);
-    background-color: var(--blue);
-    border:none;
+    border: none;
 }
 
 /* FORMULARIOS */
@@ -701,7 +748,6 @@ body:has(.right-vertical-menu) main {
 
 .form-button {
     background-color: var(--dark-blue);
-    color: var(--white);
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 4px;
@@ -731,7 +777,6 @@ body:has(.right-vertical-menu) main {
 .form-fieldset {
     font-size: 1.5em;
     font-weight: bold;
-    color: var(--black);
     margin-bottom: 1rem;
     border-radius: 0.75rem;
 }
@@ -739,7 +784,6 @@ body:has(.right-vertical-menu) main {
 .form-legend {
     font-size: 1.2rem;
     font-weight: bold;
-    color: var(--dark-gray);
 }
 
 .form-input {
@@ -755,8 +799,6 @@ body:has(.right-vertical-menu) main {
     min-height: 100px;
     padding: 0.5rem;
     margin-bottom: 1rem;
-    border: 1px solid var(--light-gray);
-    border-radius: 4px;
     resize: vertical;
 }
 
@@ -775,17 +817,11 @@ body:has(.right-vertical-menu) main {
     padding: 0.5rem;
     margin-bottom: 1rem;
     border: 1px solid var(--light-gray);
-    border-radius: 4px;
-    background-color: var(--white);
-    color: var(--black);
 }
 
 .form-btn {
-    background-color: var(--blue);
-    color: var(--white);
     padding: 0.5rem 1rem;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -827,8 +863,56 @@ body:has(.right-vertical-menu) main {
     }
 }
 
+.slide-in-left {
+    opacity: 0;
+    transform: translateX(-50%);
+    animation: slideInLeft 1s ease-in-out forwards;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.scale-and-rotate {
+    opacity: 0;
+    transform: scale(0.5) rotate(-45deg);
+    animation: scaleAndRotate 1s ease-in-out forwards;
+}
+
+@keyframes scaleAndRotate {
+    from {
+        opacity: 0;
+        transform: scale(0.5) rotate(-45deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+}
+
 /* OTHERS */
 
 .pointer {
     cursor: pointer;
+}
+
+.radius-1 {
+    border-radius: 0.5rem;
+}
+
+.radius-2 {
+    border-radius: 1rem;
+}
+
+.radius-3 {
+    border-radius: 3rem;
 }
