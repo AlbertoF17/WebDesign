@@ -215,6 +215,33 @@ body{
 .text-dark-yellow {
     color: var(--dark-yellow);
 }
+
+/* GENERAL POSITIONING */
+
+.m-1 {
+    margin: 0.75rem;
+}
+
+.m-2 {
+    margin: 1rem;
+}
+
+.m-3 {
+    margin: 2rem;
+}
+
+.p-1 {
+    padding: 0.75rem;
+}
+
+.p-2 {
+    padding: 1rem;
+}
+
+.p-3 {
+    padding: 2rem;
+}
+
 /* VERTICAL POSITIONING */
 
 .mt-1 {
@@ -328,7 +355,6 @@ body{
 .gap-3 {
     gap: 2rem;
 }
-
 
 /* FLEXBOX CLASSES */
 
@@ -680,6 +706,10 @@ body:has(.right-vertical-menu) main {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.unbordered {
+    border: none;
 }
 
 .form-label {
