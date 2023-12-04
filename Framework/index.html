@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="media/CriaturaSS.png" type="image/x-icon">
+    <title>CriaturaSS</title>
+    <link rel="stylesheet" href="styles/CriaturaSS.css">
+</head>
+
+<body class="soft-black text-white arial-font">
+    <header class="header">
+        <img src="media/CriaturaSS.png" alt="CriaturaSS Logo" class="logo">
+        <h1 class="text-white">CriaturaSS Documentation</h1>
+    </header>
+    <section class="m-2">
+        <h2 class="text-white">Themes and Colors</h2>
+        <p>The framework offers a variety of themes and colors that you can easily use.</p>
+        <div class="flex-container flex-wrap gap-2 bold-text">
+            <div class="white w-25 p-2 text-black">.white</div>
+            <div class="dark-gray w-25 p-2 text-white">.dark-gray</div>
+            <div class="blue w-25 p-2 text-white">.blue</div>
+        </div>
+        <pre class="white text-black w-100 radius-1">
+            <code>
+                &lt;div class="white w-25 p-2 text-white"&gt;.white&lt;/div&gt;
+                &lt;div class="dark-gray w-25 p-2 text-white"&gt;.dark-gray&lt;/div&gt;
+                &lt;div class="blue w-25 p-2 text-white"&gt;.blue&lt;/div&gt;
+            </code>
+        </pre>
+    </section>
+    <section class="m-2">
+        <h2 class="text-white">Typography</h2>
+        <p>Easily control the typography of your site with the provided classes.</p>
+        <div class="arial-font large-text text-white">Large Arial Text</div>
+        <div class="franklin-font normal-text text-white">Normal Franklin Gothic Text</div>
+        <div class="trebuchet-font small-text text-white">Small Trebuchet MS Text</div>
+        <pre class="white text-black w-100 radius-1">
+            <code>
+                &lt;div class="arial-font large-text text-white"&gt;Large Arial Text&lt;/div&gt;
+                &lt;div class="franklin-font normal-text text-white"&gt;Normal Franklin Gothic Text&lt;/div&gt;
+                &lt;div class="trebuchet-font small-text text-white"&gt;Small Trebuchet MS Text&lt;/div&gt;
+            </code>
+        </pre>
+    </section>
+    <section class="m-2">
+        <h2 class="text-white">Positioning</h2>
+        <p>Easily adjust the positioning of your elements with the positioning classes.</p>
+        <div class="flex-container justify-content-center align-items-center h-100">
+            <div class="card text-center">Vertically and Horizontally Centered</div>
+        </div>
+        <pre class="white text-black w-100 radius-1">
+            <code>
+                &lt;div class="flex-container justify-content-center align-items-center h-100"&gt;
+                    &lt;div class="card text-center"&gt;Vertically and Horizontally Centered&lt;/div&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+    </section>
+    <section class="m-2">
+        <h2 class="text-white">Spacing and Margin</h2>
+        <p>Easily define spacing and margins with the provided classes.</p>
+        <div class="flex-container gap-2">
+            <div class="ml-3 p-3 dark-gray text-white">Element with left margin and padding</div>
+        </div>
+        <pre class="white text-black w-100 radius-1">
+            <code>
+                &lt;div class="flex-container gap-2"&gt;
+                    &lt;div class="m-2 p-2 white text-white"&gt;Element with margin and padding&lt;/div&gt;
+                    &lt;div class="ml-3 p-3 dark-gray text-white"&gt;Element with left margin and padding&lt;/div&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+    </section>
+    <section class="m-2">
+        <h2 class="text-white">Flexbox</h2>
+        <p>Use Flexbox to design flexible and efficient layouts.</p>
+        <div class="flex-container justify-content-between align-items-center">
+            <div class="card text-center">Element 1</div>
+            <div class="card text-center">Element 2</div>
+            <div class="card text-center">Element 3</div>
+        </div>
+        <pre class="white text-black w-100 radius-1">
+            <code>
+                &lt;div class="flex-container justify-content-between align-items-center"&gt;
+                    &lt;div class="card text-center"&gt;Element 1&lt;/div&gt;
+                    &lt;div class="card text-center"&gt;Element 2&lt;/div&gt;
+                    &lt;div class="card text-center"&gt;Element 3&lt;/div&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+    </section>
+    <section class="m-2">
+        <h2 class="text-white">Forms</h2>
+        <p>Design forms easily and elegantly with the provided classes.</p>
+        <form class="form">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" class="form-input" placeholder="Enter your name">
+
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" class="form-input" placeholder="Enter your email">
+
+            <button type="submit" class="form-btn">Submit</button>
+        </form>
+        <pre class="white text-black w-100 radius-1">
+            <code>
+                &lt;form class="form"&gt;
+                    &lt;label for="name" class="form-label"&gt;Name:&lt;/label&gt;
+                    &lt;input type="text" id="name" class="form-input" placeholder="Enter your name"&gt;
+
+                    &lt;label for="email" class="form-label"&gt;Email:&lt;/label&gt;
+                    &lt;input type="email" id="email" class="form-input" placeholder="Enter your email"&gt;
+
+                    &lt;button type="submit" class="form-btn"&gt;Submit&lt;/button&gt;
+                &lt;/form&gt;
+            </code>
+        </pre>
+    </section>
+    <section class="m-2">
+        <h2 class="text-white">Animations</h2>
+        <p>Add dynamism to your site with the built-in animations in the framework.</p>
+        <div class="fade-in">Element with scale and rotation animation</div>
+        <div class="slide-in-left">Element with scale and rotation animation</div>
+        <div class="scale-and-rotate">Element with scale and rotation animation</div>
+        <pre class="white text-black w-100 radius-1">
+            <code>
+                &lt;div class="scale-and-rotate"&gt;Element with scale and rotation animation&lt;/div&gt;
+            </code>
+        </pre>
+    </section>
+    <section class="m-2 flex-container justify-content-center align-items-center">
+        <a class="form-btn pr-3 pl-3 unbordered link text-black" target="_blank" href="https://github.com/AlbertoF17/WebDesign/blob/main/Framework/styles/framework.css">
+            <p class="normal-text m-0">Download the FrameWork</p>
+        </a>
+    </section>
+    <footer class="footer">
+        <p class="text-white">&copy; 2023 CriaturaSS. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
